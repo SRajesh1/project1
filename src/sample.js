@@ -18,7 +18,7 @@ function Sample() {
   return (
     <div>
         
-        <h1>SIMPLE INTEREST: {state4}</h1>
+        <h1 style={{textAlign:"center"}}>SIMPLE INTEREST: {state4}</h1>
         <input type={"number"} value={state1} onChange={(p)=>setstate1(p.target.value)} />
         <input type={"number"} value={state2} onChange={(p)=>setstate2(p.target.value)} />
         <input type={"number"} value={state3} onChange={(p)=>setstate3(p.target.value)} />
