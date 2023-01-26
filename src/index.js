@@ -4,11 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Sample from './sample';
-
+import Sample2 from './sample2';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Sample />
+    
+    
+    <Sample2 />
+    
 
 
   </React.StrictMode>
